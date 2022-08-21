@@ -7,7 +7,7 @@ using UnrealBuildTool;
 
 public class EOSSDKHandler : ModuleRules
 {
-	public EOSSDKHandler(ReadOnlyTargetRules target) : base(target)
+	public EOSSDKHandler(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 		
