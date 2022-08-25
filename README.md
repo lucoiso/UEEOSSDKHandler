@@ -9,4 +9,9 @@ This plugin also define some parameters that will tell the engine that you're us
 
 See [EOSSDKHandler.Build.cs](https://github.com/lucoiso/UEEOSSDKHandler/blob/main/Source/EOSSDKHandler/EOSSDKHandler.Build.cs) for more details.
 
+## Links
+
+* [Project Elementus](https://github.com/lucoiso/UEProject_Elementus)
+* [Email](mailto:contatolukevboas@gmail.com)  
+
 ## More infos on the way!
