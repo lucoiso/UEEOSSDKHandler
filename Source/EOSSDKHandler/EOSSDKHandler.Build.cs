@@ -16,8 +16,7 @@ public class EOSSDKHandler : ModuleRules
 			"Core"
 		});
 		
-		PrivateDefinitions.Add("WITH_EOS_SDK=true");
-		PrivateDefinitions.Add("WITH_EOS_RTC=true");
+		PublicDefinitions.Add("WITH_EOS_SDK=1");
 		
 		PublicIncludePaths.Add(Path.Combine(EngineDirectory, 
 			"Plugins/Online/OnlineSubsystemEOS/Source/OnlineSubsystemEOS/Private/"));
