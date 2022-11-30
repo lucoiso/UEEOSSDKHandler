@@ -3,7 +3,7 @@
 // Repo: https://github.com/lucoiso/UEEOSSDKHandler
 
 #include "EOSSDKHandler.h"
-#include "Modules/ModuleManager.h"
+#include <Modules/ModuleManager.h>
 
 void FEOSSDKHandlerModule::StartupModule()
 {
