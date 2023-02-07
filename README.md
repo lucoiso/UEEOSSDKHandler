@@ -12,6 +12,7 @@ See [EOSSDKHandler.Build.cs](https://github.com/lucoiso/UEEOSSDKHandler/blob/mai
 ## Links
 
 * [Project Elementus](https://github.com/lucoiso/UEProject_Elementus)
+* [Unreal Forum](https://forums.unrealengine.com/t/free-eos-sdk-handler/765169)
 * [Email](mailto:contatolukevboas@gmail.com)  
 
 ## More infos on the way!
