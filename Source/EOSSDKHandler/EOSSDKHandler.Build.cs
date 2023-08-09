@@ -7,21 +7,21 @@ using UnrealBuildTool;
 
 public class EOSSDKHandler : ModuleRules
 {
-	public EOSSDKHandler(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+    public EOSSDKHandler(ReadOnlyTargetRules Target) : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new[]
-		{
-			"Core"
-		});
+        PublicDependencyModuleNames.AddRange(new[]
+        {
+            "Core"
+        });
 
-		PublicDefinitions.Add("WITH_EOS_SDK=1");
+        PublicDefinitions.Add("WITH_EOS_SDK=1");
 
-		PublicIncludePaths.AddRange(new[]
-		{
-			Path.Combine(EngineDirectory, "Plugins/Online/OnlineSubsystemEOS/Source/OnlineSubsystemEOS/Private/"),
-			Path.Combine(ModuleDirectory, "EOS/SDK/Include")
-		});
-	}
+        PublicIncludePaths.AddRange(new[]
+        {
+            Path.Combine(EngineDirectory, "Plugins/Online/OnlineSubsystemEOS/Source/OnlineSubsystemEOS/Private/"),
+            Path.Combine(ModuleDirectory, "EOS/SDK/Include")
+        });
+    }
 }
